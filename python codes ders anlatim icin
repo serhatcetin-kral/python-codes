@@ -1,0 +1,1857 @@
+27 inci dersin koda devam et iyi olur array icinde degilse
+
+ders 31 matris hakkinda
+turkcee ders 12,14,15 guzel ornek var cozebilirsin
+ders 46,47 ya bak bida __name__ hakkinda
+58 poliformanizm bakabilirsin ingilizce ders de
+59 a bida bakabilirsin __str__ int bilgi var about overwriting
+60 ders method overloading hakkinda python overloading yok paremetreleri none yaparak ikiliyada uclu gibi durumlar ayarla if i kullan cunku overloading yok
+69 ders ingilizce bakabilirsin binary search  onemli bisi degil gibi
+ders 70 e bakabilirsin bidaha notunu almadim
+ders 71 e de bakabilirsin siralama gibi 
+
+
+//////global kelimesi localdaki degiskeni global yapar 
+global a gibi
+a=2 
+
+
+
+
+// bolmede kusurati kaldirir 
+** 4**2 ikisefer dordu carpar 5**5 besdefa besi carpar
+stringlerde tirnak isareti
+\' bunun anlami tirnak isareti tirnak isareti bitme degil
+print("hi","man") bosluklu yazilir
+print("hi"+444)
+
+
+
+print("hi man"+str(3))
+hi man3
+
+
+print("hi man"+str(3))
+hi man3
+print(int("3")+55)
+58
+
+
+print("5"+5) error
+
+print(float("505.5")+500)
+1005.5
+
+x="hi man"
+print(x)
+hi man
+x[1]
+
+//////global kelimesi localdaki degiskeni global yapar 
+global a gibi
+a=2 
+'i'
+
+x[0:3]
+'hi '
+
+
+
+x[0:3]
+'hi '
+'hi '
+'hi '
+
+x[:3]
+'hi '
+
+x[3:]
+'man
+
+len(x)
+6
+len("hi man")
+6
+
+print('serhat\'s pen')
+serhat's pen
+///////////////////
+x="hi man"
+      
+x[1]=x error verir 
+
+///////////////
+
+type(2.34)
+<class 'float'>
+x="hi"
+type(x)
+<class 'str'>
+
+type({"apple":"elma"})
+<class 'dict'>
+
+listeler
+
+player=["messi","cetin",34]
+player
+['messi', 'cetin', 34]
+player[1]
+'cetin'
+player+["barcelona",2019]
+['messi', 'cetin', 34, 'barcelona', 2019]
+
+player.append("forward")
+palyer
+Traceback (most recent call last):
+  File "<pyshell#14>", line 1, in <module>
+    palyer
+NameError: name 'palyer' is not defined. Did you mean: 'player'?
+player
+['messi', 'cetin', 34, 'forward']
+
+
+num=[1,2,3]
+num
+[1, 2, 3]
+num.insert(2,35) insert can use index number index number show before which index add
+num
+[1, 2, 35, 3]
+
+player[:-2]=[]
+player
+['n', 34]
+
+
+ayer=["messi","cetin",34]
+
+player[:2]
+['messi', 'cetin']
+
+
+
+
+num=[1,2,3]
+num
+[1, 2, 3]
+num.insert(2,35)
+num
+[1, 2, 35, 3]
+num.remove(35)
+num
+[1, 2, 3]
+
+num.pop(1)
+2
+num
+[1, 3]
+pop uses index number and remove remove uses value
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+num=[1,2,3,3,4,5]
+num
+[1, 2, 3, 3, 4, 5]
+del num[:3]
+num
+[3, 4, 5]
+num.extend([17,19,85])
+num
+[3, 4, 5, 17, 19, 85]
+min(num)
+3
+max(num)
+85
+sum(num)
+133
+
+num.sort()
+num
+[3, 4, 5, 17, 19, 85]
+
+tuple like list farki elemanlari degistirilemez
+tup=(1,2,3,4)
+tup
+(1, 2, 3, 4)
+tup[1]
+2 
+tup[1]=33 //bu calismaz degistirilemaz tuple
+tupp=("hi","come")
+tupp
+('hi', 'come')
+
+
+SET set {} bracket ile kullanilir tekrarli elemanlari yazmaz index number yoktur
+>>> s={12,34,34,55}
+>>> s
+{34, 12, 55}
+>>> s1=(12,13,12)
+>>> s1
+(12, 13, 12)
+>>> s3={"murat","serhat","murat"}
+>>> s3
+{'murat', 'serhat'} s
+inputtttttttttttttttttttttttttttttttttttttttttt
+a=input("palase enter name")
+b=input("plase eneter a number")
+c=input("please enter second number")
+print(int(b)+int(c))
+
+print(b+c);
+
+
+
+
+name=input("name")
+surname=input("surname")
+age=input("age")
+info=[name,surname,age]
+print("name: "+name+" surname:"+surname+" age:"+age)
+
+x=input("please enter cahracter")
+please enter cahracterp
+print(x)
+p
+y=input("please enter character")
+please enter characterabc
+y
+'abc'
+
+
+
+x=input("enter ")[0]
+enter xyz
+print(x)
+x
+
+
+for the numbers result uses "eval"
+x=input("enter ")[0]
+enter xyz
+print(x)
+x
+x=input("enter a char")
+enter a char1+2*3
+print(x)
+1+2*3
+x=eval(input("ente a char"))
+ente a char1+2*3
+print(x)
+7
+
+
+///////////
+
+yazdigin bir kodu cmd dende calistirirsin butun codu yazmadan bunun icin
+import sys
+x=int(sys.argv[1])
+y=int(sys.argv[2])
+z=x+y
+print(z)
+
+
+///////
+format() 
+print("name:{} surname:{} age:{}".format(info[0],info[1],info[2]))
+
+
+ID()
+name="serhat"
+id(name)
+2464273829552
+
+a=10
+id(a)
+2464232636944
+id(10)
+2464232636944
+b=10
+id(b)
+2464232636944
+a=9
+id(a)
+2464232636912
+b=44
+id(b)
+2464232638032
+id(10)
+2464232636944
+2464232636944
+2464232636944
+
+NAME="SERHAT" CAPITAL LETTER USE FOR DONT CHANGE YOU CAN CHANGE BUT IF YOU DONT WANT TO CHANGE USE CAPITAL FOR WARNING
+NAME
+'SERHAT'
+NAME="MURAT"
+NAME
+'MURAT'2
+
+DATA TYPES
+none 
+numeric
+list
+tuple
+set
+string
+range
+dictionary
+
+NUMERIC
+int
+float
+complex
+bool
+
+RANGE
+
+range(1000)
+range(0, 1000)
+
+list(range(10))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+list(range(2,1000,5))
+
+
+
+DICTIONARY
+
+
+sozluk={"apple":"elma","pear":"armut","watermelon":"karpuz"}
+sozluk
+{'apple': 'elma', 'pear': 'armut', 'watermelon': 'karpuz'}
+
+
+dict_keys()
+
+
+sozluk.keys()
+dict_keys(['apple', 'pear', 'watermelon'])
+sozluk_values()
+sozluk.values()
+dict_values(['elma', 'armut', 'karpuz'])
+sozluk["karpuz"]
+
+sozluk["apple"]
+'elma'
+sozluk["elma"]
+sozluk.get("elma")
+sozluk.get("apple")
+'elma'
+
+
+
+
+operators
+assignment operators a,b=5,6
+relational operator
+a>b
+a!=b
+a>=b
+a==b
+
+and, or, not operators
+
+
+true and true=true
+true or false=true
+
+MATH
+import Math
+import math
+x=sqrt(25)
+x=math.sqrt(25)
+x
+5.0
+
+x=math.sqrt(25)
+x
+5.0
+print(math.floor(3.5))
+3
+print(math.ceil(3.5))
+4
+
+
+3**3
+27
+print(math.pow(9,2))
+81.0
+
+
+print(math.pi)
+3.141592653589793
+print(math.e)
+2.718281828459045
+///////////////////////
+AS
+import math as m
+math.sqrt(25)
+5.0
+m.sqrt(5)
+2.23606797749979
+m.sqrt(25)
+5.0
+
+IMPORT // SPECIFIC LIBRARY
+from math import sqrt,pow // WHEN WE USE LIKE THIS WE DONT NEED TO USE MATH KEY LIKE MATH.FLOOR IT IS WRONG
+sqrt(25)
+5.0
+
+x=sqrt(25)
+x
+5.0
+print(sqrt(25))
+5.0
+
+//////////////////////////////////
+IF
+
+
+a=5
+if(a==5):
+    {
+print("it is true")
+}
+    a = 5
+    if a == 5:
+        {
+         
+
+
+
+x=7
+if(x%2==0):
+    print("even")
+    if(x>5):
+        print("great")
+    else:print("small")
+else:print("odd")
+
+////////////////////
+
+
+WHILE
+
+i = 1
+while i <= 5:
+    print("hello",i)
+    i = i + 1
+
+///
+i = 1
+while i <= 5:
+    print("*"*i)
+    i = i + 1
+/////
+i = 1
+j=1
+while i <= 5:
+    print("first loop",i)
+//j=1
+    while j<=5:
+        print("second loop ",j)
+        j=j+1
+    i = i + 1
+ //print()
+///////////////////////////////
+FOR LOOP
+
+x="murat"
+for i in x:
+    print(i)
+///
+x=["murat",2,3,4]
+for i in x:
+    print(i)
+////
+for i in [1,3,"murat"]:
+    print(i)
+
+////
+for i in range(10):
+    print(i)
+////
+for i in range(10,23):
+    print(i)
+//for i in range(10,23,2):
+    print(i)
+
+///
+for i in range(40,23,-2):
+    print(i)
+
+BREAK
+
+av=10
+i=int(input("please enter how many candies you want"))
+x=1
+while x<=i:
+    if i>av:
+        break
+    print(x)
+    x+=1
+
+CONTINUE
+for i in range(1,101):
+    if i%3==0:
+        continue
+    print(i)
+print("bye ase")
+
+/////
+for i in range(1,101):
+    if i%3==0 or i%5==0:  //and
+        continue
+    print(i)
+///
+print odd number 
+for i in range(1,101):
+    if i%2!=0:
+       pass
+    else:print(i)
+
+///////////
+print("# ",end=" ")
+print("# ",end=" ") //boyle olunca yan yan yazdiriyo
+
+
+
+ QUESTION
+#  #  #  #  
+#  #  #  #  
+#  #  #  #  
+#  #  #  # 
+for j in range(4):
+    for i in range(4):
+     print("# ",end=" ")
+
+    print()
+/////////
+#  
+#  #  
+#  #  #  
+#  #  #  # 
+for j in range(4):
+    for i in range(j+1):
+     print("# ",end=" ")
+
+    print()
+///
+
+#  #  #  #  
+#  #  #  
+#  #  
+#  
+for j in range(4):
+    for i in range(4-j):
+     print("# ",end=" ")
+
+    print()
+
+PRINT NUMBER WHICH ONES DIVISIBLE BY FIVE
+arr=[1,5,20,25]
+for num in arr:
+    if num%5==0:
+        print(num)
+
+  JUST PRINT FIRST ONE
+arr=[1,5,20,25]
+for num in arr:
+    if num%5==0:
+        print(num)
+        break
+//////////////
+FOR ELSE
+arr=[1,5,20,25]
+for num in arr:
+    if num%5==0:
+        print(num)
+        break
+else :print("non")
+
+////
+FIND PRIME NUMBER OR NOT
+num=int(input("enter the a number"))
+for i in range(2,num):
+    if num%i==0:
+        print("not prime")
+        break
+else :
+        print("prime number")
+
+
+
+
+ARRAYS
+from array import *
+num=array("i",[3,2,5])
+print(num)
+
+////////
+new array olusturma oncekinden
+from array import *
+num=array("i",[3,2,5])
+print(num)
+newarr=array(num.typecode,(a for a in num))
+print(newarr)
+
+
+///////////// yeni array ousturma oncekinden karesiyle carp
+from array import *
+num=array("i",[3,2,5])
+print(num)
+newarr=array(num.typecode,(a*a for a in num))
+print(newarr)
+
+/////////////
+from array import *
+num=array("i",[3,2,5])
+print(num)
+newarr=array(num.typecode,(a*a for a in num))
+print(newarr)
+for e in newarr:
+    print(e)
+
+
+
+//////////
+add element in array take from user
+
+from array import *
+arr=array('i',[])
+n=int(input("please enter length of array"))
+for i in range(n):
+    x=int(input("please enter new menber of array"))
+    arr.append(x)
+
+print(arr)
+
+val=int(input("please enter your estimated number")) // bu kisim array icindeki elemani tahmin etmek icin
+k=0
+
+for e in arr:
+    if e==val:
+        print(k)
+        break
+    k+=1
+
+print(arr.index(val)) // bu kisim index numarasini gosterir 
+
+////////////
+coklu array 
+
+from numpy import * 
+arr=([1,2,3],[2,3,4]) // numpy de array tipine belirtmene gerek yok
+print(arr)
+
+
+
+
+/////////
+from numpy import *
+arr=array([1,2,3])
+print(arr)
+arr=arr+5
+print(arr)
+
+arr2=array([4,5,6])
+arr3=arr+arr2
+print(arr3)
+print("maxarr3",max(arr3))
+print("minarr3",min(arr3))
+print("concat ",concatenate([arr,arr2]))
+
+
+
+/////
+from numpy import *
+arr=array([1,2,3,4])
+print(arr)
+arr2=arr
+print(arr2)
+print("arr:",id(arr))
+print("arr2",id(arr2))
+
+
+////////////
+from numpy import *
+arr=array([1,2,3,4])
+print("arr:",arr)
+arr2=arr
+arr[0]=7
+print("arr2 ",arr2)
+print("arr:",id(arr))
+print("arr2",id(arr2))
+
+
+
+/////////
+from numpy import *
+arr=array([1,2,3,4])
+print("arr:",arr)
+arr2=arr.view()
+arr[0]=7
+print("arr2 ",arr2)
+print("arr:",id(arr))
+print("arr2",id(arr2))
+//
+from numpy import *
+arr=array([1,2,3,4])
+print("arr:",arr)
+arr2=arr.copy()
+arr[0]=7
+print("arr2 ",arr2)
+print("arr:",id(arr))
+print("arr2",id(arr2))
+print("arr:",arr)
+
+
+
+
+/////////////////
+FUNCTIONS
+
+def add(x,y):
+    c=x+y
+    z=x-y
+    return c,z
+
+
+result1,result2=add(3,4)
+print(result1,result2)
+
+
+
+/////////
+def sum(a,*b):
+    c=a
+    print(c)
+    for n in b:
+        c=c+n
+    print("second ",c)
+
+sum(5,3,11)
+////
+def info(name,*data):
+    print(name)
+    print(data)
+
+info("murat",6,"reception")
+
+
+///////
+def info(name,**data): /cift star mean acception double argument like key and value
+    print(name)
+    for n in data:
+        print(n)
+
+info(name="murat",age=6,grade="reception")
+
+//def info(name,**data): 
+    print(name)
+    print(data)
+
+info(name="murat",age=6,grade="reception")
+//
+def info(name,**data): 
+    print(name)
+    for i,j in data.items(): #i and mean there is two argumnet
+        print(i,j)
+
+info(name="murat",age=6,grade="reception")
+
+
+/////////
+GLOBALS GLOBAL
+
+def fun():
+    global b
+    b=55
+    a=10
+    print("local a",a)
+    x=globals()['a']  //globals()['a'] burasi x e global olan a nin degerini atar
+    print("x=",x)
+
+fun()
+print(b)
+
+
+///////////////
+LAMBDA
+f=lambda a:a*a
+
+print(f(5))
+
+///////////////////
+f=lambda a,b:a*a+b*b
+
+print(f(5,6)
+
+///////
+
+print even numbers from the list
+num=[2,3,4,5,6,8]
+
+even=list(filter(lambda n:n%2==0,num))  //first one fuction after coma list name
+
+print(even)
+//////////
+
+
+def fin(n):
+    return n%2==0
+
+
+num=[2,3,4,5,6,8]
+
+even=list(filter(fin,num))
+print(even)
+
+
+/////////////////////
+
+
+from functools import reduce
+
+num=[2,3,4,5,6,8]
+
+even=list(filter(lambda n:n%2==0,num))
+print(even)
+
+double=list(map(lambda n:n*n,even ))
+print("even numbers:",double)
+
+sum=reduce(lambda a,b:a+b,double)
+
+
+////////////////////////
+
+PRAMETRE YERI DEGISTIRME gerrekli durumlarda parametre yeri degistirme
+
+def div(a,b):
+    return a/b
+print(div(2,4))
+
+def change(func):
+    def inner(a,b):
+        if(a<b):
+            a,b=b,a
+            return func(a,b)
+    return inner
+
+div=change(div)
+print(div(2,4))
+
+/////////////////
+from calc import *    //use different modules and import your function
+a=9
+b=3
+
+c=add(a,b)
+d=sub(a,b)
+
+print("add:",c)
+print("add",d)
+
+//////////////////////
+
+CLASS AND OBJECT
+
+class computer:
+    def config(self):
+      print(" 8 0gb ram,500gb harddisk,i5 cpu")
+    def config2(self):
+        print("config 2")
+com1=computer()
+com2=computer()
+
+computer.config(com1)
+computer.config(com2)
+
+com1.config()
+com2.config()
+
+
+///////////////////
+
+class computer:
+
+    def __init__(self):
+        self.name="murat"
+        self.surname="cetin"
+
+
+
+com1=computer()
+com2=computer()
+
+com1.name="serhat"
+
+print(com1.name)
+////////////////////
+
+class computer():
+
+    def __init__(self):
+        self.name="murat"
+        self.age=6
+    def compare(self,other):
+        if self.age==other.age:
+            return True
+        else:
+            return False
+c1=computer()
+c2=computer()
+c2.age=5
+if c1.compare(c2):
+    print("same aage aseee")
+else:print("they are different")
+
+print(c1.name)
+print(c2.name)
+////////////////////
+CLASS VARIABLES & INSTANCE VARIABLES
+
+class computer():
+
+    cpu="i7"  #class variables class variable degisince  hepsi degisir
+    def __init__(self):
+       self.brand="dell"  #instance variables
+       self.ram=8       #instance variables
+
+c1=computer()
+c2=computer()
+
+c2.brand="hp"
+computer.cpu="i5"
+ #c1.cpu="i9"
+print(c1.brand,c1.ram,c1.cpu)
+print(c2.brand,c2.ram,c2.cpu)
+
+////////////////////////////////////////
+METHODS
+
+
+# uc sesit method var class method,  instance and static,
+class Student:
+    school="horizon"
+    def __init__(self,m1,m2,m3):
+        self.m1=m1
+        self.m2=m2
+        self.m3=m3
+
+    def avg(self):        #instans method with self
+        return (self.m1+self.m2+self.m3)/3
+    @classmethod
+    def getschool(cls):
+       return cls.school
+
+
+    @staticmethod # static method
+    def info(classname):
+       print("student class")
+
+s1=Student(5,7,8)
+s2=Student(12,8,7)
+
+
+print(s1.avg())
+print(Student.getschool())
+
+////////////////
+INNER CLASS
+
+class Student:
+    def __init__(self,name,rollno):
+        self.name=name
+        self.rollno=rollno
+        self.Laptop=self.Laptop()
+
+    def show(self):
+        print(self.name,self.rollno)
+        self.Laptop.show()
+
+
+    class Laptop:
+        def __init__(self):
+
+            self.brand="dell"
+            self.cpu="i5"
+        def show(self):
+            print(self.brand,self.cpu)
+
+
+
+
+
+s1=Student("murat","student")
+s2=Student("kaan","student")
+s1.show()
+s2.show()
+s3=Student("selim","muftu")
+s3.show()
+s3.Laptop.show()
+
+
+//////////////
+
+INHERITANCE
+
+class A:
+    def feature1(self):
+        print("feature1")
+    def feature2(self):
+        print("feature2")
+
+class B(A): # INHERITENCE LIKE EXTEND  
+
+    def feature3(self):
+        print("feature1")
+    def feature4(self):
+        print("feature2")
+class C(B): # INHERITENCE LIKE EXTEND //  C(A,B) BUDA TEK TEK ALMA
+
+    def feature3(self):
+        print("feature1")
+    def feature4(self):
+        print("feature2")
+
+s1=A()
+s1.feature1()
+s2=B()
+s2.feature1()
+
+s3=C()
+s3.feature1()
+
+
+/////////////////////
+CONSTRUCTOR
+
+ //HERZAMAN CONSTRUCTOR OBJECT OLUSTURUNCA CALISIR METOTLARI CAGIRMASAN BILE KALIITMDA KENDI KONSTRUCTORU YOKSA USTEKINI CAGIRIR
+class A:
+    def __init__(self):
+        print("first constructor for a")
+    def feature1(self):
+        print("feature1")
+    def feature2(self):
+        print("feature2")
+
+class B(A): # INHERITENCE LIKE EXTEND
+    def __init__(self):
+        print("second constructor for b")
+    def feature3(self):
+        print("feature1")
+    def feature4(self):
+        print("feature2")
+class C(B): # INHERITENCE LIKE EXTEND //  C(A,B) BUDA TEK TEK ALMA
+
+    def feature3(self):
+        print("feature1")
+    def feature4(self):
+        print("feature2")
+
+
+a=A()
+b=B()
+c=C()
+
+/////////
+//kendi konstructoru olunca kendisininkini cagirir ustekileri degil
+
+class A:
+    def __init__(self):
+        print("first constructor for a")
+    def feature1(self):
+        print("feature1")
+    def feature2(self):
+        print("feature2")
+
+class B(A): # INHERITENCE LIKE EXTEND
+    def __init__(self):
+        print("second constructor for b")
+    def feature3(self):
+        print("feature1")
+    def feature4(self):
+        print("feature2")
+class C(B): # INHERITENCE LIKE EXTEND //  C(A,B) BUDA TEK TEK ALMA
+    def __init__(self):
+        print("this is c constructor")
+    def feature3(self):
+        print("feature1")
+    def feature4(self):
+        print("feature2")
+
+
+a=A()
+b=B()
+c=C()
+
+/////////////////////////
+
+//super bi onceki konstructoru cagirir 
+
+class A:
+    def __init__(self):
+        print("first constructor for a")
+    def feature1(self):
+        print("feature1")
+    def feature2(self):
+        print("feature2")
+
+class B(A): # INHERITENCE LIKE EXTEND
+    def __init__(self):
+        print("second constructor for b")
+    def feature3(self):
+        print("feature1")
+    def feature4(self):
+        print("feature2")
+class C(B): # INHERITENCE LIKE EXTEND //  C(A,B) BUDA TEK TEK ALMA
+
+
+    def __init__(self):
+        super().__init__()
+        print("this is c constructor")
+    def feature3(self):
+        print("feature1")
+    def feature4(self):
+        print("feature2")
+
+
+a=A()
+b=B()
+c=C()
+/////////////////////////
+//CONSTRUCTOR A NINKINI CAGIRIR
+class A:
+    def __init__(self):
+        print("first constructor for a")
+    def feature1(self):
+        print("feature1")
+    def feature2(self):
+        print("feature2")
+
+class B(): # INHERITENCE LIKE EXTEND
+    def __init__(self):
+        print("second constructor for b")
+    def feature3(self):
+        print("feature1")
+    def feature4(self):
+        print("feature2")
+class C(A,B): # INHERITENCE LIKE EXTEND //  C(A,B) BUDA TEK TEK ALMA
+
+
+    def __init__(self):
+        super().__init__()
+        print("this is c constructor")
+    def feature3(self):
+        print("feature1")
+    def feature4(self):
+        print("feature2")
+
+
+a=A()
+b=B()
+c=C()
+
+
+
+/////////////////
+OVERWRITING
+
+class A:
+    def show(self):
+        print("hi man")
+
+class B(A):
+    def show(self):
+        print("h b second man")
+
+
+a=B()
+a.show()
+
+
+
+///////////////////
+class A:
+    def show(self):
+        print("hi man")
+
+class B(A):
+    pass
+
+
+a=B()
+a.show()
+
+////////
+ITERATORS
+# iterators
+nums=[2,4,6,8,9,101]
+for n in nums:
+    print(n)
+
+print("second way")
+##################
+it=iter(nums) # iterrator fuction
+print("it:",it)
+print(it.__next__()) # sirasi ile elemalari birer birer gosteri sadece birtane
+
+print(it.__next__())
+print(next(it)) # next bu sekildede ayni bir eleman gosteri
+
+/////////
+
+    def __init__(self):
+       self.num=1
+    def __iter__(self):
+        return self
+    def __next__(self):
+        val=self.num
+        self.num+=1
+        return val
+values=TopTen()
+"""for i in values:
+    print(i)"""
+
+
+//////////
+class TopTen:
+    def __init__(self):
+       self.num=1
+    def __iter__(self):
+        return self
+    def __next__(self):
+        if self.num<=10:
+            val=self.num
+            self.num+=1
+            return val
+        else: raise  StopIteration
+values=TopTen()
+print(next(values)) # sadece 1 ciktisini verir
+for i in values:
+    print(i)
+
+
+"""
+
+print(values.__next__())
+print(values.__next__())"""
+
+
+////////////
+GENERATOT
+
+def TopTen():
+    n=1
+    while n<=10:
+        sq=n*n
+        yield sq  # yield creatred itarotor 
+        n+=1
+
+values=TopTen()
+
+for i in values:
+    print(i)
+/////////////////
+EXCEPTION
+
+a=5
+b=0
+
+try:
+  print("open resource")
+  print(a/b)
+except Exception as e: # just represent exception
+  print("hey man come on no any number divisible by zero:",e)
+
+finally:print("close program")
+
+print("it is ok")
+
+
+/////////////////
+a=5
+b=2
+
+try:
+  print("open resource")
+  print(a/b)
+  k=int(input("please enter a number"))
+except ZeroDivisionError as e:
+    print("hey man come on no any number divisible by zero:", e)
+except ValueError as e:
+    print("INVALID NUMBER:", e)
+except Exception as e: # just represent exception
+  print("something wrong man:",e)
+
+finally:print("close program")
+
+print("it is ok")
+
+
+//////////////
+THREAD
+
+from time import sleep
+from threading import *
+class Hello(Thread):
+    def run(self):
+       for i in range(5) :
+        print("hello asee")
+        sleep(1)
+class Hi(Thread):
+    def run(self):
+        for i in range(5):
+            print("hi asee")
+            sleep(1)
+a=Hello()
+b=Hi()
+
+a.start() // START FOR RUN THREAD THREAD NEED RUN METHOD FOR RUN
+sleep(0.2)
+b.start()
+a.join()   # join mean wait main thread for a or b other code work after thread finish
+b.join()
+
+print("out of thread")
+
+
+//////////////FILES
+f=open("MyData","r")
+# r mean read
+
+# print(f.read())
+# read() butun dosyayi okumanizi saglar
+print(f.readline(),end="")
+# this read just one lie end remove space beetween lines readLine(4) first 4 crackteri okur
+print(f.readline())
+
+///////////////////
+#f=open("MyData1","w")
+
+"""f.write("murat ")
+f.write("kaan")
+f.write("laptop")"""
+
+f=open("MyData1","a")
+# a mean append data
+f.write("hi come on \n")
+
+
+f1=open("MyData1","r")
+
+for n in f1:
+    print(n)
+
+print("second one",f1.read())
+/////////
+f1=open("data1","r")
+
+f2=open("MyData1","a")
+for n in f1:
+    f2.write(n)
+
+//////////
+
+f=open("murat.JPG","rb") //RB FOR BINATY BECAUSE OF THERE IS TEXT IT IS PICTURE JPG YI BUYUK YAZ
+
+
+f1=open("kaan.JPG","wb")
+for n in f:
+    f1.write(n)
+
+
+
+#readLines() butun satirlari okur listte seklinde 
+close.dosya() acilan dosyayi kaptir tabi adi dosyaysa :)
+///////////
+
+# with as ile dosyayi kapatmaya gerek yok isimiz bitince otomatik kapanir dosya
+with open("data1","r") as dosya:
+    print(dosya.read())
+
+
+////////////////
+
+with open("data1","r") as dosya:
+    dosya.seek(10)  #dosyada 10 uncu karakterden itibaren alir
+    print(dosya.read())
+
+//////////////
+# with as ile dosyayi kapatmaya gerek yok isimiz bitince otomatik kapanir dosya
+with open("data1","r") as dosya:
+    dosya.seek(10)  #dosyada 10 uncu karakterden itibaren alir
+    print(dosya.read(5)) # 5 caracter okur toplam da 15 den sonra bes karakter oku
+    
+  /////////////////
+
+with open("data1","a") as dosya:
+    dosya.write("bu sonra dan eklene bilgi") # sonuna bilgi ekler a ile actik
+////////////////////////////
+
+DOSYAYA BILGI EKLEME
+
+with open("data1","r+") as dosya:  # r+ read and anlamina gelir
+    data=dosya.read()
+    dosya.seek(0)
+    data="bunu basa ekledik niye olmadi"+data
+
+
+//////////////////////////////
+liste=[1,2,3,4,5,6]
+
+liste.insert(3,57) # 3 uncu indexe 57 yi ekle
+print(liste)
+/////////////
+/////////
+LINEAR
+///
+def search(list,n):
+   i=0
+   while i<len(list):
+      if list[i]==n:
+
+         return True
+      i=i+1
+   return False
+
+
+
+list=[5,8,9,1,0,10]
+
+n=11
+
+if search(list,n):
+   print("found")
+else:
+   print("not found")
+
+//////////////////////////////
+liste icindeki elemanin posizyonunuda soyler
+
+pos=-1
+def search(list,n):
+   i=0
+
+   while i<len(list):
+      if list[i]==n:
+         globals()['pos']=i
+         return True
+      i=i+1
+   return False
+
+
+
+list=[5,8,9,1,0,10]
+
+n=9
+
+if search(list,n):
+   print("found position is ",pos)
+else:
+   print("not found")
+
+///////////////////////////
+
+bu kisma bida bak hata var
+pos=-1
+def search(list,n):
+
+   x=0
+   for n in list:
+      if n==list[x]:
+        globals()['pos']=x
+        return True
+      x=x+1
+list=[5,8,9,1,0,10]
+
+n=10
+
+if search(list,n):
+   print("found position is ",pos)
+else:
+   print("not found")
+
+/////////binary search var o faydali degil bana gore
+
+///////////////////
+show databases;
+create database student;
+use student;
+create table student(name varchar(20), surname varchar(20),age numeric(60));
+
+insert into student value("murat","kaan",6);
+insert into student values("selim","cetin",0),("furkan","cetin",4);
+select * from student;
+
+////////// bunlar ingilizce derslerden turkcede farkli baglanma var //DATABASE OLUSTURMA
+ // bu kismdan once pip3 install mysql-connector cmd den yukle olmuyosa uzerine ge paketi yukle kirmizi cizginini
+import mysql.connector
+mydb=mysql.connector.connect(host="localhost",user="root",password="root")
+
+mycursor=mydb.cursor()
+mycursor.execute("show databases")
+for i in mycursor:
+    print(i)
+////////////////////
+//FETCH DATA FROM DATA BASE
+
+import mysql.connector
+mydb=mysql.connector.connect(host="localhost",user="root",password="root", database="student")
+
+mycursor=mydb.cursor()
+mycursor.execute("select * from students")  //it show all data first way 
+for i in mycursor:
+    print(i)
+
+/////////////////////fetch all data second way
+import mysql.connector
+mydb=mysql.connector.connect(host="localhost",user="root",password="root", database="student")
+
+mycursor=mydb.cursor()
+mycursor.execute("select * from students")
+result=mycursor.fetchall()
+for i in result:
+    print(i)
+//////////// fetch single data
+import mysql.connector
+mydb=mysql.connector.connect(host="localhost",user="root",password="root", database="student")
+
+mycursor=mydb.cursor()
+mycursor.execute("select * from students")
+result=mycursor.fetchone()
+for i in result:
+    print(i)
+
+///////////////
+import mysql.connector
+mydb=mysql.connector.connect(host="localhost",user="root",password="root")
+
+mycursor=mydb.cusor()
+mycursor.execute("select * from student")
+result=mycursor.fetchall()
+for i in result:
+    print(i)
+////////////
+
+
+//////////////////////
+
+turkce kaynakdan db olusturma python icinde gomulu olusturuyo datayi gormek icin SQL DB BROWSER YUKLEMELISIN
+import sqlite3
+# bu yontemle pytohn icindeki databasyi kullaniyo
+con=sqlite3.connect("lessons")
+cursor=con.cursor()
+def createTable():
+    cursor.execute("CREATE TABLE students(name TEXT, surname TEXT,age INT)")
+    con.commit()
+    con.close()
+
+createTable()
+
+/////// BIR DAHA AYNI DATABASYSI OLUSTURUR HATA VERMEZ IF NOT EXISTS
+
+import sqlite3
+# bu yontemle pytohn icindeki databasyi kullaniyo
+con=sqlite3.connect("lessons")
+cursor=con.cursor()
+def createTable():
+    cursor.execute("CREATE TABLE IF NOT EXISTS students(name TEXT, surname TEXT,age INT)")
+    con.commit()
+    con.close()
+createTable()
+
+//////////////////////////
+
+//tabloya deger ekele
+
+import sqlite3
+# bu yontemle pytohn icindeki databasyi kullaniyo
+con=sqlite3.connect("lessons")
+cursor=con.cursor()
+def createTable():
+    cursor.execute("CREATE TABLE IF NOT EXISTS students(name TEXT, surname TEXT,age INT)")
+
+def addValues():
+    cursor.execute("insert into students values('murat','cetin',6)")
+    con.commit()
+    con.close()
+createTable()
+addValues()
+///////////////////////////////////////
+
+VERITAVNINA VERI EKLEME GOMUK DATABYSE
+
+import sqlite3
+import time
+import random
+import datetime
+
+con=sqlite3.connect("lessons1")
+cursor=con.cursor()
+
+def createTable():
+    cursor.execute("CREATE TABLE IF NOT EXISTS table3(time1 REAL,date TEXT,keyword TEXT,value TEXT)")
+
+def addRandomValue():
+    time1=time.time()
+    date=str(datetime.datetime.fromtimestamp(time1).strftime('%Y-%m-%d %H:%M:%S'))
+    keyword="python sql3"
+    value=random.randrange(0,10)
+    cursor.execute("INSERT INTO table3(time1,date,keyword,value) VALUES(?,?,?,?)",(time1,date,keyword,value))
+    con.commit()
+createTable()
+i=0
+while(i<10):
+  addRandomValue()
+  time.sleep(1)
+  i+=1
+
+con.close()
+
+/////////////////////
+//fetch data 
+import sqlite3
+
+
+con=sqlite3.connect("lessons1")
+cursor=con.cursor()
+
+cursor.execute("select * from table3")
+data=cursor.fetchall()
+print(data)
+
+con.close()
+
+///////////////////
+//fetch data
+import sqlite3
+
+
+con=sqlite3.connect("lessons1")
+cursor=con.cursor()
+
+cursor.execute("select * from table3")
+data=cursor.fetchall()
+
+for i in data:
+    print(i)
+
+con.close()
+////////////////////////////
+import sqlite3
+
+
+con=sqlite3.connect("lessons1")
+cursor=con.cursor()
+
+cursor.execute("select time1,date from table3")
+data=cursor.fetchall()
+
+for i in data:
+    print(i)
+
+con.close()
+
+////////////////////////
+import sqlite3
+
+
+con=sqlite3.connect("lessons1")
+cursor=con.cursor()
+
+cursor.execute("SELECT  * FROM table3 WHERE value=2")
+data=cursor.fetchall()
+
+for i in data:
+    print(i)
+
+con.close()
+///////////////////////
+# UPDATE
+import sqlite3
+
+
+con=sqlite3.connect("lessons1")
+cursor=con.cursor()
+
+cursor.execute("SELECT  * FROM table3")
+data=cursor.fetchall()
+
+for i in data:
+    print(i)
+print("---------------------")
+cursor.execute("UPDATE table3 SET value=99 WHERE value=2")
+cursor.execute("SELECT * FROM table3")
+data1=cursor.fetchall()
+
+for i in data1:
+    print(i)
+con.close()
+//////////////////////////////
+#DELETE
+import sqlite3
+
+
+con=sqlite3.connect("lessons1")
+cursor=con.cursor()
+
+cursor.execute("SELECT  * FROM table3")
+data=cursor.fetchall()
+
+for i in data:
+    print(i)
+print("---------------------")
+cursor.execute("DELETE FROM table3 WHERE value=8")
+cursor.execute("SELECT * FROM table3")
+data1=cursor.fetchall()
+
+for i in data1:
+    print(i)
+con.close()
+
+
+///////////////////////////////
+
+NESNE TABANLI PROGRAMLAMA 
+//////
+class dusman:
+    kalancan=3
+    def saldir(self):
+        print("hucum")
+        self.kalancan-=1
+
+    def hayattami(self):
+        if(self.kalancan<=0):
+            print("die aseeeeeeeee")
+        else:
+            print("kalan can=",self.kalancan)
+
+dusman1=dusman()
+dusman2=dusman()
+
+dusman1.saldir()
+dusman1.saldir()
+dusman2.saldir()
+dusman1.hayattami()
+dusman2.saldir()
+dusman2.saldir()
+dusman2.hayattami()
+/////////////
+
+class dusman:
+    def __init__(self,isim="dusman",kalancan=100,saldirigucu=20,mermisayisi=100):
+        self.isim=isim
+        self.kalancan=kalancan
+        self.saldirigucu=saldirigucu
+        self.mermisayisi=mermisayisi
+    def print(self):
+        print("isim:",self.isim," kalancan:",self.kalancan," saldirigucu:",self.saldirigucu," mermi sayisi:",self.mermisayisi)
+
+dusman1=dusman("abuzer")
+dusman1.print()
+dusman2=dusman("kadayif",80,20,50)
+dusman2.print()
+dusman3=dusman("mafya",saldirigucu=2,mermisayisi=14,kalancan=15)
+dusman3.print()
+
+////////////////////////////////////
+
+import random
+class dusman:
+    def __init__(self,isim="dusman",kalancan=100,saldirigucu=20,mermisayisi=100):
+        self.isim=isim
+        self.kalancan=kalancan
+        self.saldirigucu=saldirigucu
+        self.mermisayisi=mermisayisi
+    def print(self):
+        print("isim:",self.isim," kalancan:",self.kalancan," saldirigucu:",self.saldirigucu," mermi sayisi:",self.mermisayisi)
+
+    def saldir(self):
+        print(self.isim," saldiriyor")
+        harcananmermi=random.randrange(0,10)
+        self.mermisayisi-=harcananmermi
+        print("kadar mermi harcandi ",str(harcananmermi))
+
+        return (harcananmermi,self.saldirigucu)
+    def saldiriyaugra(self,harcananmermi,saldirigucu):
+        print("vuruldum")
+        self.kalancan-=(harcananmermi*saldirigucu)
+    def mermibittimi(self):
+        if(self.mermisayisi<=0):
+            print(self.isim," oldum oyundan cikiyorum")
+            return True
+        return False
+
+    def hayattami(self):
+        if(self.kalancan<=0):
+            print("oluyorum")
+
+
+    def print(self):
+        print("isim:",self.isim," kalancan:",self.kalancan," saldirigucu:",self.saldirigucu," mermi sayisi:",self.mermisayisi)
+
+dusmanlar=[]
+
+i=0
+while(i<10):
+    rastgelecan=random.randrange(100,200)
+    rastgelesaldirigucu=random.randrange(10,20)
+    rastgelemermi=random.randrange(20,30)
+    yenidusman=dusman("dusman"+str(i+1),rastgelecan,rastgelesaldirigucu,rastgelemermi)
+    dusmanlar.append(yenidusman)
+    i+=1
+
+
+for dusman in dusmanlar:
+    dusman.print()
+
+i=0
+while(i<3):
+    rastgeledusman1=random.randrange(0,10)
+    rastgeledusman2=random.randrange(0,10)
+
+    donendeger=dusmanlar[rastgeledusman1].saldir()
+
+    dusmanlar[rastgeledusman2].saldiriyaugra(donendeger[0],donendeger[1])
+    print("bitti")
+    i+=1
+
+    
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
